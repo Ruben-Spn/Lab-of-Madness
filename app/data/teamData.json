@@ -1,0 +1,28 @@
+{
+    "members": [
+        {
+            "image": "",
+            "name": "Person 1",
+            "description": "This is the full description content of Person 1",
+            "about": "This is the full about content of Person 1"
+        },
+        {
+            "image": "",
+            "name": "Person 2",
+            "description": "This is the full description content of Person 2",
+            "about": "This is the full about content of Person 2"
+        },
+        {
+            "image": "",
+            "name": "Person 3",
+            "description": "This is the full description content of Person 3",
+            "about": "This is the full about content of Person 3"
+        },
+        {
+            "image": "",
+            "name": "Person 4",
+            "description": "This is the full description content of Person 4",
+            "about": "This is the full about content of Person 4"
+        }
+    ]
+}
