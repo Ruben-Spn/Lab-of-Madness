@@ -1,6 +1,7 @@
 import Image from "next/image";
 import data from "../data/teamData.json";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
 
 interface TeamMember {
@@ -11,40 +12,39 @@ interface TeamMember {
 }
 
 export default function Carousel() {
-  const [width, setWidth] = useState(0);
-  const carouselRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (carouselRef.current)
-      setWidth(
-        carouselRef.current?.scrollWidth - carouselRef.current?.offsetWidth
-      );
-  }, []);
-
   return (
-    <motion.div
-      ref={carouselRef}
-      className="cursor-grab overflow-hidden bg-red-500 w-full"
-    >
-      <motion.div
-        drag="x"
-        dragConstraints={{ right: 0, left: -width }}
-        className="flex gap-10"
-      >
-        {data.members.map((teamMember: TeamMember, index: number) => {
-          return (
-            <article
-              key={index}
-              className="bg-indigo-300 h-[500px] min-w-[300px] flex flex-col items-center justify-center gap-5 px-7 py-3"
-            >
-              <Image src={teamMember.image} width={100} height={100} alt="" />
-              <h1>{teamMember.name}</h1>
-              <p>{teamMember.description}</p>
-              <p>{teamMember.about}</p>
-            </article>
-          );
-        })}
-      </motion.div>
+    <motion.div className="flex gap-10 w-full flex-col items-center justify-center md:flex-row flex-wrap">
+      {data.members.map((teamMember: TeamMember, index: number) => {
+        return (
+          <motion.article
+            key={index}
+            className="bg-white w-[250px] flex flex-col items-center gap-5 px-6 py-5 rounded-md"
+          >
+            <div
+              className="h-[70px] w-[70px] rounded-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${teamMember.image})` }}
+            ></div>
+
+            <div className="flex flex-col items-center justify-center gap-2">
+              <h1 className="font-roboto text-lg">{teamMember.name}</h1>
+              <p className="font-roboto text-xs text-red-700/70">
+                {teamMember.description}
+              </p>
+            </div>
+
+            <motion.div className="flex flex-col items-center justify-center">
+              <p className="font-roboto text-xs text-center">
+                {teamMember.about}
+              </p>
+            </motion.div>
+
+            <div className="flex items-center justify-center gap-10">
+              <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
+              <FaGithubSquare className="h-6 w-6 hover:cursor-pointer" />
+            </div>
+          </motion.article>
+        );
+      })}
     </motion.div>
   );
 }

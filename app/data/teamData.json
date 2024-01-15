@@ -1,28 +1,61 @@
 {
     "members": [
         {
-            "image": "",
-            "name": "Person 1",
-            "description": "This is the full description content of Person 1",
-            "about": "This is the full about content of Person 1"
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
         },
         {
-            "image": "",
-            "name": "Person 2",
-            "description": "This is the full description content of Person 2",
-            "about": "This is the full about content of Person 2"
-        },
-        {
-            "image": "",
-            "name": "Person 3",
-            "description": "This is the full description content of Person 3",
-            "about": "This is the full about content of Person 3"
-        },
-        {
-            "image": "",
-            "name": "Person 4",
-            "description": "This is the full description content of Person 4",
-            "about": "This is the full about content of Person 4"
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+        },{
+            "image": "/assets/guy.jpg",
+            "name": "Ruben Spaan",
+            "description": "Developer / Designer",
+            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
         }
     ]
 }

@@ -120,7 +120,6 @@ export default function Home() {
   }, [isHovering, isHovering2]);
 
   const scrollToRef = (ref: any) => {
-    // Scroll to the element with the ID "targetElement" smoothly
     ref.current.scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -237,7 +236,7 @@ export default function Home() {
           ></motion.div>
         </div>
         <div className=" w-full px-10 flex flex-col items-center ">
-          <h1 className="text-3xl inline-block font-roboto text-red-500 items-center justify-center flex text-center">
+          <h1 className="text-2xl inline-block font-roboto text-red-500 items-center justify-center flex text-center">
             UNVEIL THE SECRETS OF THE MAD SCIENTIST
           </h1>
           <p className="font-roboto text-center inline-block mt-5 leading-relaxed">
@@ -267,11 +266,26 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full  min-h-screen text-black flex items-center justify-center max-w-screen relative ">
+      <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-40 px-10 py-40">
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
         <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.1]"></div>
+
+        <div>
+          <h1 className="text-3xl  font-roboto text-red-500 items-center justify-center flex text-center">
+            MEET THE TEAM
+          </h1>
+          <p className="font-roboto text-center mt-5 leading-relaxed text-white">
+            Lab of Madness created by SQUAD2 a group of senior New Media
+            Development students at Artevelde Hogeschool.
+          </p>
+        </div>
+
         <Carousel />
+      </section>
+
+      <section className="py-5 px-20 text-white text-xs font-roboto text-center w-full">
+        Lab of Madness created By squad 2 - 2023/2024
       </section>
     </main>
   );
