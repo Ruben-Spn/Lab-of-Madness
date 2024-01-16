@@ -35,15 +35,17 @@ export default function Carousel() {
       return;
     }
     setWidth(
-      carouselRef.current?.scrollWidth - carouselRef.current?.offsetWidth
+      carouselRef.current?.offsetWidth - carouselRef.current?.scrollWidth
     );
   }, []);
   return (
-    <motion.div className="overflow-hidden cursor-grab w-full relative">
+    <motion.div className="overflow-hidden cursor-grab w-full relative py-10">
       <motion.div
         drag="x"
-        dragConstraints={{ right: 0, left: -3420 }}
-        className="flex  gap-20"
+        dragConstraints={{ right: 0, left: width - 50 }}
+        className="flex  gap-20 w-full h-full"
+        dragElastic={0.1}
+        ref={carouselRef}
       >
         {data.members.map((teamMember: TeamMember, index: number) => {
           return (
@@ -67,14 +69,17 @@ export default function Carousel() {
               </div>
 
               <motion.div className="flex flex-col items-center justify-center">
-                <p className="font-roboto text-sm text-center">
+                <p className="font-roboto text-xs text-center">
                   {teamMember.about}
                 </p>
               </motion.div>
 
-              <div className="flex items-center justify-center gap-10">
-                <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
-                <FaGithubSquare className="h-6 w-6 hover:cursor-pointer" />
+              <div className="flex items-center w-full px-4 gap-4">
+                <hr className="h-[4px] w-full px-2 border-red-700/30" />
+                <div className="flex gap-4">
+                  <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
+                  <FaGithubSquare className="h-6 w-6 hover:cursor-pointer" />
+                </div>
               </div>
             </motion.article>
           );

@@ -81,7 +81,7 @@ export default function Home() {
 
   const ref = useRef(null);
   const discoverRef = useRef(null);
-  const escapeRef = useRef(null);
+  const teamRef = useRef(null);
 
   const isInView = useInView(ref, { once: true });
 
@@ -168,7 +168,8 @@ export default function Home() {
             onHoverStart={() => setIsHovering(true)}
             onHoverEnd={() => setIsHovering(false)}
             whileHover={{ cursor: "pointer" }}
-            onClick={() => scrollToRef(escapeRef)}
+            onClick={() => scrollToRef(discoverRef)}
+            onTap={() => scrollToRef(discoverRef)}
             className=" z-10  flex items-center justify-center relative sm:px-20 sm:py-6 sm:text-2xl px-20 py-4 text-xl border-[3px] sm:border-[4px] border-[#F6E8EA] text-[#F6E8EA] tracking-wider font-oswald shadow-2xl"
           >
             <p className="z-10">DISCOVER</p>
@@ -185,8 +186,8 @@ export default function Home() {
             onHoverStart={() => setIsHovering2(true)}
             onHoverEnd={() => setIsHovering2(false)}
             whileHover={{ cursor: "pointer" }}
-            onClick={() => scrollToRef(discoverRef)}
-            onTap={() => scrollToRef(discoverRef)}
+            onClick={() => scrollToRef(teamRef)}
+            onTap={() => scrollToRef(teamRef)}
             className=" z-10  flex items-center justify-center relative sm:px-20 sm:py-6 sm:text-2xl px-20 py-4 text-xl border-[3px] sm:border-[4px] border-[#F6E8EA] text-[#F6E8EA] tracking-wider font-oswald shadow-2xl"
           >
             <p className="z-10">THE TEAM</p>
@@ -207,7 +208,7 @@ export default function Home() {
       >
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
-        <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.1]"></div>
+        <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.2]"></div>
         <div className="flex items-center -space-x-8 w-full justify-center">
           <motion.div
             variants={fadeInViewRight}
@@ -249,10 +250,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-36 px-9 py-40">
+      <section
+        ref={teamRef}
+        className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-36 px-9 py-40"
+      >
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
-        <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.1]"></div>
+        <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.2]"></div>
 
         <div>
           <h1 className="text-3xl  font-roboto text-red-500 items-center justify-center flex text-center">
@@ -265,6 +269,13 @@ export default function Home() {
         </div>
 
         <Carousel />
+      </section>
+
+      <section className="w-full min-h-screen flex flex-col items-center justify-center gap-10 relative sm:px-36 px-9 py-40 text-white">
+        <form action="">
+          <label htmlFor="">Groupname</label>
+          <input type="text" />
+        </form>
       </section>
 
       <section className="py-5 px-12 text-white text-[10px] font-roboto text-center w-full">

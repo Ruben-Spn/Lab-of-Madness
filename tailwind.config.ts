@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "asset-banner-wide": "url('/assets/banner-wide.png')",
+        "asset-banner-wide": "url('/assets/banner-wide-compressed.png')",
         "asset-image1": "url('/assets/image1.png')",
         "asset-image2": "url('/assets/image2.png')",
         "asset-location": "url('/assets/location.png')",
