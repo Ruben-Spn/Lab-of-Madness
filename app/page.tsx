@@ -127,13 +127,12 @@ export default function Home() {
   };
 
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen w-screen relative">
+    <main className="flex flex-col items-center justify-center min-h-screen max-w-screen relative">
       <div className="bg-black -z-[100] absolute w-full h-full inset-0"></div>
       <section
         id="banner"
         className="h-screen w-full bg-asset-banner-wide bg-cover bg-center flex items-center justify-center relative"
       >
-        <div className=" absolute w-full h-full"></div>
         <div className="absolute sm:top-20 top-28 flex items-center blur-[0.5px] gap-3 px-10 sm:px-24">
           <motion.div {...fadeInFromBottom} className="z-10">
             <Image src="/assets/lab.svg" alt="Lab" width={200} height={200} />
@@ -156,14 +155,13 @@ export default function Home() {
           </motion.div>
         </div>
         <motion.div
-          className={`w-full sm:min-w-[500px] max-w-[1250px] h-full opacity-0 scale-110  bg-cover bg-center flex items-center justify-center bg-asset-banner-overlay`}
+          className={` sm:min-w-[500px] h-full opacity-0 scale-110  bg-cover bg-center flex items-center justify-center bg-asset-banner-overlay`}
           animate={animateOverlay}
-          whileHover={{ scale: 1.1 }}
         >
           <div className="h-20 w-40 hover:cursor-pointer"></div>
         </motion.div>
         <motion.div
-          className="absolute bottom-28 flex flex-col gap-10 sm:bottom-44 sm:gap-44 sm:flex-row"
+          className="absolute bottom-24 flex flex-col gap-10 sm:bottom-44 sm:gap-44 sm:flex-row"
           {...fadeInButtons}
         >
           <motion.div
@@ -173,7 +171,7 @@ export default function Home() {
             onClick={() => scrollToRef(escapeRef)}
             className=" z-10  flex items-center justify-center relative sm:px-20 sm:py-6 sm:text-2xl px-20 py-4 text-xl border-[3px] sm:border-[4px] border-[#F6E8EA] text-[#F6E8EA] tracking-wider font-oswald shadow-2xl"
           >
-            <p className="z-10">ESCAPE</p>
+            <p className="z-10">DISCOVER</p>
 
             <motion.div
               className="absolute w-full  bg-red-500  h-full -z-0 bottom-0"
@@ -188,9 +186,10 @@ export default function Home() {
             onHoverEnd={() => setIsHovering2(false)}
             whileHover={{ cursor: "pointer" }}
             onClick={() => scrollToRef(discoverRef)}
+            onTap={() => scrollToRef(discoverRef)}
             className=" z-10  flex items-center justify-center relative sm:px-20 sm:py-6 sm:text-2xl px-20 py-4 text-xl border-[3px] sm:border-[4px] border-[#F6E8EA] text-[#F6E8EA] tracking-wider font-oswald shadow-2xl"
           >
-            <p className="z-10">DISCOVER</p>
+            <p className="z-10">THE TEAM</p>
 
             <motion.div
               className="absolute w-full  bg-red-500  h-full -z-0 bottom-0"
@@ -204,7 +203,7 @@ export default function Home() {
 
       <section
         ref={discoverRef}
-        className=" gap-20 sm:px-48 pt-20 pb-20 flex flex-col items-center justify-center  text-[#F6E8EA] relative w-full min-h-screen"
+        className=" gap-20 sm:px-28 pt-20 pb-20 flex flex-col items-center justify-center  text-[#F6E8EA] relative w-full min-h-screen"
       >
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
@@ -247,26 +246,10 @@ export default function Home() {
             scientist&apos;s plan. This immersive experience emphasizes teamwork
             and quick thinking. Do you dare to enter?
           </p>
-          <motion.div
-            onHoverStart={() => setIsHovering2(true)}
-            onHoverEnd={() => setIsHovering2(false)}
-            whileHover={{ cursor: "pointer" }}
-            onClick={() => scrollToRef(discoverRef)}
-            className="mt-10 z-10 w-[200px] sm:w-[400px]  flex items-center justify-center relative sm:px-20 sm:py-6 sm:text-2xl  py-4 text-xl border-[3px] sm:border-[4px] border-[#F6E8EA] text-[#F6E8EA] tracking-wider font-oswald shadow-2xl"
-          >
-            <p className="z-10">MEET THE TEAM</p>
-
-            <motion.div
-              className="absolute w-full  bg-red-500  h-full -z-0 bottom-0"
-              animate={animateButton2}
-              initial={{ height: 0, y: 0 }}
-            ></motion.div>
-            <div className="absolute h-full w-full bg-black/20 scale-110 blur-lg -z-[1]" />
-          </motion.div>
         </div>
       </section>
 
-      <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-40 px-10 py-40">
+      <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-36 px-9 py-40">
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
         <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
         <div className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.1]"></div>
@@ -284,7 +267,7 @@ export default function Home() {
         <Carousel />
       </section>
 
-      <section className="py-5 px-20 text-white text-xs font-roboto text-center w-full">
+      <section className="py-5 px-12 text-white text-[10px] font-roboto text-center w-full">
         Lab of Madness created By squad 2 - 2023/2024
       </section>
     </main>
