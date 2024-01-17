@@ -51,7 +51,7 @@ export default function Carousel() {
           return (
             <motion.article
               key={index}
-              className="bg-white min-h-[500px] min-w-[300px] flex flex-col items-center gap-5 px-6 py-5 rounded-md relative"
+              className="bg-white min-h-[470px] min-w-[300px] flex flex-col items-center gap-5 px-6 py-5 rounded-md relative"
               variants={fadeInView}
               initial="initial"
               whileInView="animate"

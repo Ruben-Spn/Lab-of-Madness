@@ -50,15 +50,15 @@
         },
         {
             "image": "/assets/guy.jpg",
-            "name": "Name of member",
+            "name": "Emiel Deboyser",
             "description": "Relevant Role",
-            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+            "about": "Ik ben Emiel Deboyser, 21 jaar oud. Ik heb tijdens dit spannend project samen met Ruveyda gewerkt aan de lichtschakelaar challange ook stond ik in voor de televisie in de escape room. Deze waren alle twee met Raspberry PI en kan nu met veel trots zeggen dat ik nu Raspberry PI specialist geworden ben. Het was een helse tocht om dit als eindresultaat te bezorgen. Het is gelukt en ben erg trots op mijn team genoten en ook zeer trots op mezelf. "
         },
         {
             "image": "/assets/guy.jpg",
-            "name": "Name of member",
+            "name": "Manu Van Leirberghe",
             "description": "Relevant Role",
-            "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget fermentum aliquam, elit nisl ultricies  ultricies nisl, quis aliquam nisl nisl eu nisl. Sed euismod, nisl eget fermentum aliquam, elit nisl ultricies nisl, quis aliquam nisl nisl eu nisl."
+            "about": "Ik ben Manu Van Leirberghe, ik ben 20 jaar. Ik heb al wat voorkennis met programmeren, solderen en elektronica. Toch leerde ik heel wat bij tijdens dit project. Door dit project ben ik thuis zelf ook meer beginnen automatiseren en bouwen. WOT toont NMD studenten perfect aan dat programmeren voor zo veel meer gebruikt kan worden dan websites en applicaties.  "
         }
     ]
 }

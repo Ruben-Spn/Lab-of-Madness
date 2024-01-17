@@ -260,8 +260,8 @@ export default function Home() {
             MEET THE TEAM
           </h1>
           <p className="font-roboto text-center mt-5 leading-relaxed text-white">
-            Lab of Madness created by SQUAD2 a group of senior New Media
-            Development students at Artevelde Hogeschool.
+            The Lab of Madness is een project door SQUAD 2, een groep
+            laatstejaars studenten van de richting GDM te Artevelde Hogeschool.
           </p>
         </div>
 
