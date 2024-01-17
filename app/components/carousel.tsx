@@ -51,7 +51,7 @@ export default function Carousel() {
           return (
             <motion.article
               key={index}
-              className="bg-white min-h-[500px] min-w-[300px] flex flex-col items-center gap-5 px-6 py-5 rounded-md"
+              className="bg-white min-h-[500px] min-w-[300px] flex flex-col items-center gap-5 px-6 py-5 rounded-md relative"
               variants={fadeInView}
               initial="initial"
               whileInView="animate"
@@ -74,7 +74,7 @@ export default function Carousel() {
                 </p>
               </motion.div>
 
-              <div className="flex items-center w-full px-4 gap-4">
+              <div className="flex items-center w-full px-8 gap-4 absolute bottom-4">
                 <hr className="h-[4px] w-full px-2 border-red-700/30" />
                 <div className="flex gap-4">
                   <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
