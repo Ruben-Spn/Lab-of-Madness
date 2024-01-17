@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Image from "next/image";
 import Carousel from "./components/carousel";
+import Gallery from "./components/gallery";
 
 const fadeInFromBottom = {
   initial: { opacity: 0, y: 50 },
@@ -245,6 +246,17 @@ export default function Home() {
             slagen?
           </p>
         </div>
+      </section>
+
+      <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-52 px-9 py-60">
+        <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full -top-28"></div>
+        <div className="absolute bg-gradient-to-t from-black to-transparent h-28 w-full top-0 rotate-180"></div>
+        <div
+          ref={teamRef}
+          className="absolute inset-0 w-full h-full bg-asset-pattern bg-cover -z-50 blur-sm brightness-[0.2]"
+        ></div>
+
+        <Gallery />
       </section>
 
       <section className="w-full  min-h-screen text-black flex flex-col items-center justify-center max-w-screen gap-10 relative sm:px-36 px-9 py-60">
