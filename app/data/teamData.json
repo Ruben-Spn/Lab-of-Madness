@@ -1,63 +1,69 @@
 {
     "members": [
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/ruben.jpg",
             "name": "Ruben Spaan",
             "description": "Engineer / Designer / Developer",
             "about": "Dit project benadrukte mijn vermogen om creativiteit, organisatorische skills en teamwork te combineren voor tastbare resultaten. Het weerspiegelt niet alleen mijn passie voor het creëren van boeiende ervaringen, maar ook mijn talent om in teamverband doelgericht naar succes te streven. Ik kijk ernaar uit om deze vaardigheden verder te ontwikkelen en ze in de toekomst succesvol in te zetten."
+            ,"linkedin": "https://www.linkedin.com/in/ruben-spaan-b266481bb/?originalSubdomain=be"        
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/ruv.jpg",
             "name": "Rüveyda Kartal",
             "description": "Engineer / Developer / Designer",
             "about": "Tijdens dit project heb ik mijn vaardigheden op het gebied van teamwork, creativiteit en organisatie verder ontwikkeld. Ik kan met zelfvertrouwen en trots zeggen dat ik ben gegroeid in zowel mijn kennis als vaardigeheden. Ik wil al mijn teamleden bedanken voor hun inzet en motivatie. Ik ben trots op wat we hebben bereikt en ik kijk uit naar de toekomst."
+            ,"linkedin": "https://www.linkedin.com/in/ruveyda-kartal-821aba222/?originalSubdomain=be"          
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/vincent.jpg",
             "name": "Vincent Claeys",
-            "description": "Relevant Role",
-            "about": "Tijdens dit project had ik de verantwoordelijkheid over prop5. Hierin heb ik verschillende vaardigheden verder kunnen ontwikkelen, met name op het gebied van elektronica, elektriciteit, en zelfs een beetje houtbewerking. Ik heb kunnen ervaren dat IoT kan leiden tot prachtige projecten en resultaten. Dat communicatie en samenwerking nog crucialer zijn in groepswerk dan ik aanvankelijk dacht, is zeker iets dat ik zal meenemen in de toekomst. "
+            "description":"Engineer / Designer / Developer",
+            "about": "Tijdens dit project had ik de verantwoordelijkheid over prop5. Hierin heb ik verschillende vaardigheden verder kunnen ontwikkelen, met name op het gebied van elektronica, elektriciteit, en zelfs een beetje houtbewerking. Ik heb kunnen ervaren dat IoT kan leiden tot prachtige projecten en resultaten. Dat communicatie en samenwerking nog crucialer zijn in groepswerk dan ik aanvankelijk dacht, is zeker iets dat ik zal meenemen in de toekomst. ",
+            "linkedin": "https://www.linkedin.com/in/vincent-claeys-1b0589203/"
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/viktor.jpg",
             "name": "Victor Tanaka",
-            "description": "Relevant Role",
+            "description": "MQTT Master",
             "about": "Ik ben Victor Tanaka, 21 jaar oud. Met Manu heb ik aan prop 4 gewerkt, de Tabel van Mendeljev challenge. Ook heb ik me bezig gehouden met mqtt, Mosquitto. Ik heb veel bijgeleerd, van bedrading en stroomgebruik tot het gebruik van mosquitto (mqtt) , server-side, client-side, arduino (code) en natuurlijk het samenwerken in groep.  "
+            ,"linkedin": "https://www.linkedin.com/in/victor-tanaka-91a785240/"     
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/robin.jpg",
             "name": "Robin Decraene",
-            "description": "Relevant Role",
+            "description": "Team Leader",
             "about": "Ik ben Robin Decraene, 20 jaar oud, en dit jaar ben ik de squad lead. Gedurende deze periode heb ik veel geleerd en ben ik zeer tevreden met het team en de voortgang die we hebben geboekt. Het was niet altijd eenvoudig, maar uiteindelijk zijn we er wel geraakt en ik ben zeer blij met het eindresultaat. "
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/margot.jpg",
             "name": "Margot Saeyens",
-            "description": "Relevant Role",
+            "description": "Team member",
             "about": "Ik ben Margot Saeyens, ik ben 22 jaar oud. Ik heb leren werken met Arduino en Voice Modules. Het was een hele uitdaging om de code juist te krijgen, maar het resultaat is goed. Verder heb ik de escaperoom afgebroken en ingericht wat een leuk proces was. Het was dan ook tof om in een groep te werken aan zo een groot project. "
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/elle.jpg",
             "name": "Elle Crehel ",
-            "description": "Relevant Role",
+            "description": "Team member",
             "about": "Ik heb gewerkt met Arduino en RFID Readers, om zo het spel te maken waarbij je de verschillende artikels in de juiste volgorde legt. Dit is het eerste grote IOT-project dat ik gemaakt heb, en ik heb het gevoel dat ik er veel uit bijgeleerd heb. Niet alleen op vlak van elektronica of programmeren maar ik heb ook veel bijgeleerd door in een grote groep samen te werken.  "
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/anakin.jpg",
             "name": "Anakin Vanwassenhove",
-            "description": "Relevant Role",
+            "description": "Team member",
             "about": "Ik ben Anakin Vanwassenhove 22 jaar oud. Ik heb veel geleerd omtrend voice recognition en ook met Arduino’s leren werken. Er was veel variatie van werk en dus heb ik ook veel ervaring opgedaan met teamwerk, elektronica en programmeren. Het was een tijd zinkende ervaring maar het resultaat maakt het die tijd waard. "
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/emiel.jpg",
             "name": "Emiel Deboyser",
-            "description": "Relevant Role",
-            "about": "Ik ben Emiel Deboyser, 21 jaar oud. Ik heb tijdens dit spannend project samen met Ruveyda gewerkt aan de lichtschakelaar challange ook stond ik in voor de televisie in de escape room. Deze waren alle twee met Raspberry PI en kan nu met veel trots zeggen dat ik nu Raspberry PI specialist geworden ben. Het was een helse tocht om dit als eindresultaat te bezorgen. Het is gelukt en ben erg trots op mijn team genoten en ook zeer trots op mezelf. "
+            "description": "Raspberry PI Specialist",
+            "about": "Ik ben Emiel Deboyser, 21 jaar oud. Ik heb tijdens dit spannend project samen met Ruveyda gewerkt aan de lichtschakelaar challange ook stond ik in voor de televisie in de escape room. Deze waren alle twee met Raspberry PI en kan nu met veel trots zeggen dat ik nu Raspberry PI specialist geworden ben. Het was een helse tocht om dit als eindresultaat te bezorgen. Het is gelukt en ben erg trots op mijn team genoten en ook zeer trots op mezelf. ",
+            "github": "https://www.github.com/emieldeboyser/",
+            "linkedin": "https://www.linkedin.com/in/emieldeboyser/"
         },
         {
-            "image": "/assets/guy.jpg",
+            "image": "assets/profiles/manu.jpg",
             "name": "Manu Van Leirberghe",
-            "description": "Relevant Role",
+            "description": "Team member",
             "about": "Ik ben Manu Van Leirberghe, ik ben 20 jaar. Ik heb al wat voorkennis met programmeren, solderen en elektronica. Toch leerde ik heel wat bij tijdens dit project. Door dit project ben ik thuis zelf ook meer beginnen automatiseren en bouwen. WOT toont NMD studenten perfect aan dat programmeren voor zo veel meer gebruikt kan worden dan websites en applicaties.  "
         }
     ]

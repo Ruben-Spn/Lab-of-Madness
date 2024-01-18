@@ -9,6 +9,8 @@ interface TeamMember {
   name: string;
   description: string;
   about: string;
+  github?: string;
+  linkedin?: string;
 }
 
 const fadeInView = {
@@ -77,8 +79,12 @@ export default function Carousel() {
               <div className="flex items-center w-full px-8 gap-4 absolute bottom-4">
                 <hr className="h-[4px] w-full px-2 border-red-700/30" />
                 <div className="flex gap-4">
-                  <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
-                  <FaGithubSquare className="h-6 w-6 hover:cursor-pointer" />
+                  <a href={teamMember.linkedin}>
+                    <FaLinkedin className="h-6 w-6 hover:cursor-pointer" />
+                  </a>
+                  <a href={teamMember.github}>
+                    <FaGithubSquare className="h-6 w-6 hover:cursor-pointer" />
+                  </a>
                 </div>
               </div>
             </motion.article>
